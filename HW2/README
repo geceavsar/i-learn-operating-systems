@@ -1,6 +1,6 @@
 
 
-This program finds the primes in a given interval using a multiprocess and multitreaded approach. The synchronization between the processes and threads are implemented using shared memory and POSIX semaphores.
+This program finds the primes in a given interval using both multiprocessing and multithreading. The synchronization between the processes and threads are implemented using shared memory and POSIX semaphores.
 
 The source code will be uploaded after the deadline.
 
