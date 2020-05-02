@@ -86,7 +86,7 @@ int main(int argc, const char * argv[]){
     //yukaridaki alanlarin baslangic adreslerini gösteren isaretciler
     iter = (int*)shmat(ARRAY_ID, NULL, 0);
     arrayIndex = (int*)shmat(INDEX_ID, NULL, 0);
-    semaphore = (sem_t*)shmat(INDEX_ID, NULL, 0);
+    semaphore = (sem_t*)shmat(SEM_ID, NULL, 0);
 
     *arrayIndex = 0;
     *iter = 0;
